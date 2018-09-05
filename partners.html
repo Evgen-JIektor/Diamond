@@ -1,0 +1,702 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Diamond</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+    <link href="css/slick.css" rel="stylesheet">
+    <link href="css/slick-theme.css" rel="stylesheet">
+    <link href="css/jquery-ui.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+
+    <header class="header">
+        <div class="container">
+            <div class="container-inside">
+                <div class="row">
+                    <div class="logo col-3 mb-4 mt-3">
+                        <a href="img/logo-header.png">
+                            <img src="img/logo-header.png" alt=""/>
+                        </a>
+                    </div>
+
+                    <div class="col-2 text-center mb-4 mt-3">
+                        <div class="social">
+                            <a href="#" class="social-icon social-vk"></a>
+                            <a href="#" class="social-icon social-facebook"></a>
+                            <a href="#" class="social-icon social-twitter"></a>
+                            <a href="#" class="social-icon social-mail"></a>
+                        </div>
+                    </div>
+
+                    <div class="auth col-7">
+                        <div class="auth-links text-center">
+                            <a href="" data-toggle="modal" data-target="#exampleModal">Вход для партнеров</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="search pt-4 col-3">
+                        <form class="form-search-main">
+                            <div class="search_item">
+                                <input type="text" class="search_input" id="search_input-1" placeholder="Поиск">
+                            </div>
+                            <div class="search_item_btn">
+                                <input title="Поиск" class="btn-search" value="" type="submit">
+                            </div>
+                        </form>
+                    </div>
+                    <div class="mini-header-text pt-3 text-center col-4">
+                        Бриллианты от профессионалов.<br /> Бриллианты от производителя.
+                    </div>
+                    <div class="col-3">
+                        <div class="contact ml-4">
+                            <a href="tel:+74954117750" class="phone">8 (495) 411-77-50</a>
+                            <a href="tel:+74954117754" class="phone">8 (495) 411-77-54</a>
+                        </div>
+                    </div>
+                    <div class="col-2">
+                        <a href="" class="basket">
+                            <div class="basket-item">
+                                <img src="img/buy-main.png" alt="" />
+                            </div>
+                            <div class="basket-item">
+                                <div class="basket-item-name">
+                                    Корзина
+                                </div>
+                                <div class="basket-item-price">
+                                    <b>14 658</b>&nbsp;руб.
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+            <div class="row">
+                <nav class="menu mt-4 col-12">
+                    <ul class="p-0 m-auto">
+                        <li><a href="">Главная</a></li>
+                        <li class="menu-diamond-all">
+                            <a href="">Бриллианты</a>
+                            <nav class="toggle-menu menu-diamond">
+                                <ul class="p-0">
+                                    <li><span></span><a href="">Сердце</a></li>
+                                    <li><span></span><a href="">Ридиант</a></li>
+                                    <li><span></span><a href="">Принцесса</a></li>
+                                    <li><span></span><a href="">Овал</a></li>
+                                    <li><span></span><a href="">Маркиз</a></li>
+                                    <li><span></span><a href="">Кушон</a></li>
+                                    <li><span></span><a href="">Изумруд</a></li>
+                                    <li><span></span><a href="">Круглый</a></li>
+                                    <li><span></span><a href="">Груша</a></li>
+                                    <li><span></span><a href="">Ашер</a></li>
+                                </ul>
+                                <a href="" class="all-diamods mt-3 mb-3">Все бриллианты</a>
+                            </nav>
+                        </li>
+                        <li class="menu-jewelry-all">
+                            <a href="">Ювилирные изделия</a>
+                            <nav class="toggle-menu menu-jewelry">
+                                <ul class="p-0">
+                                    <li><a href="">Кольца</a><span></span></li>
+                                    <li><a href="">Подвески</a><span></span></li>
+                                    <li><a href="">Серьги</a><span></span></li>
+                                    <li><a href="">Браслеты</a><span></span></li>
+                                </ul>
+                            </nav>
+                        </li>
+                        <li><a href="">Конструктор</a></li>
+                        <li><a href="">Ознакомление  с бриллиантами</a></li>
+                        <li><a href="">Партнерам</a></li>
+                        <li><a href="">Контакты</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <div class="container-inside pb-3">
+            <div class="row">
+                <div class="col">
+                    <div class="breadcrumbs">
+                        <a href="">Главная</a>/
+                        <span>Партнёрам</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container-inside pt-4">
+            <div class="block-filter px-2 pt-2 pb-4">
+                <div class="block-top-line-filter clearfix">
+                    <div class="form-check pr-5">
+                        <input class="form-check-input" type="checkbox" id="inlineFormCheck-1">
+                        <img src="img/partners/s360.png" alt="" />
+                    </div>
+                    <div class="text-filter-foto pl-3">
+                        Доступно фото
+                    </div>
+                    <div class="link-filter">
+                        Сбросить фильтр
+                    </div>
+                </div>
+                <div class="row pt-3 pb-4 px-5">
+                    <div class="col-4">
+                        <div class="block-filter-form">
+                            <div class="mini-header-filter pb-2">
+                                Форма
+                            </div>
+                            <div class="form-items">
+                                <div class="item text-center">
+                                    <div class="icon-header">
+                                        Сердце
+                                    </div>
+                                    <div class="icon-block active">
+                                        <img src="img/main-menu/icon-1.jpg" alt="" />
+                                    </div>
+                                </div>
+                                <div class="item text-center">
+                                    <div class="icon-header">
+                                        Ридиант
+                                    </div>
+                                    <div class="icon-block">
+                                        <img src="img/main-menu/icon-3.jpg" alt="" />
+                                    </div>
+                                </div>
+                                <div class="item text-center">
+                                    <div class="icon-header">
+                                        Принцесса
+                                    </div>
+                                    <div class="icon-block">
+                                        <img src="img/main-menu/icon-5.jpg" alt="" />
+                                    </div>
+                                </div>
+                                <div class="item text-center">
+                                    <div class="icon-header">
+                                        Овал
+                                    </div>
+                                    <div class="icon-block">
+                                        <img src="img/main-menu/icon-7.jpg" alt="" />
+                                    </div>
+                                </div>
+                                <div class="item text-center">
+                                    <div class="icon-header">
+                                        Маркиз
+                                    </div>
+                                    <div class="icon-block">
+                                        <img src="img/main-menu/icon-9.jpg" alt="" />
+                                    </div>
+                                </div>
+
+                                <div class="item text-center">
+                                    <div class="icon-header">
+                                        Кушон
+                                    </div>
+                                    <div class="icon-block">
+                                        <img src="img/main-menu/icon-2.jpg" alt="" />
+                                    </div>
+                                </div>
+                                <div class="item text-center">
+                                    <div class="icon-header">
+                                        Изумруд
+                                    </div>
+                                    <div class="icon-block">
+                                        <img src="img/main-menu/icon-4.jpg" alt="" />
+                                    </div>
+                                </div>
+                                <div class="item text-center">
+                                    <div class="icon-header">
+                                        Круглый
+                                    </div>
+                                    <div class="icon-block">
+                                        <img src="img/main-menu/icon-6.jpg" alt="" />
+                                    </div>
+                                </div>
+                                <div class="item text-center">
+                                    <div class="icon-header">
+                                        Груша
+                                    </div>
+                                    <div class="icon-block">
+                                        <img src="img/main-menu/icon-8.jpg" alt="" />
+                                    </div>
+                                </div>
+                                <div class="item text-center">
+                                    <div class="icon-header">
+                                        Ашер
+                                    </div>
+                                    <div class="icon-block">
+                                        <img src="img/main-menu/icon-10.jpg" alt="" />
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-4">
+                        <div class="filter-price">
+                            <div class="mini-header-filter pb-4">
+                                Цена
+                            </div>
+                            <div class="clearfix pb-3">
+                                <input type="text" id="minCost-1" class="float-left" value="0" />
+                                <input type="text" id="maxCost-1" class="float-right" value="1000" />
+                            </div>
+                            <div id="slider-filter-price"></div>
+                        </div>
+                    </div>
+                    <div class="col-4">
+                        <div class="filter-carat">
+                            <div class="mini-header-filter pb-4">
+                                Карат
+                            </div>
+                            <div class="clearfix pb-3">
+                                <input type="text" id="minCost-2" class="float-left" value="0" />
+                                <input type="text" id="maxCost-2" class="float-right" value="1000" />
+                            </div>
+                            <div id="slider-filter-carat"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row pb-4 pt-2 px-5">
+                    <div class="col-4">
+                        <div class="filter-shearing">
+                            <div class="mini-header-filter pb-2">
+                                Срез
+                            </div>
+                            <div class="block-text-slider-filter">
+                                <div class="text-slider-filter text-slider-filter-shearing text-center">Хороший</div>
+                                <div class="text-slider-filter text-slider-filter-shearing text-center">Очень хороший</div>
+                                <div class="text-slider-filter text-slider-filter-shearing text-center">Идеальный</div>
+                                <div class="text-slider-filter text-slider-filter-shearing text-center">Совершенный</div>
+                            </div>
+
+                            <div id="slider-filter-shearing"></div>
+                        </div>
+                    </div>
+                    <div class="col-4">
+                        <div class="filter-shearing">
+                            <div class="mini-header-filter pb-2">
+                                Цвет
+                            </div>
+                            <div class="block-text-slider-filter">
+                                <div class="text-slider-filter text-slider-filter-color text-center">J</div>
+                                <div class="text-slider-filter text-slider-filter-color text-center">I</div>
+                                <div class="text-slider-filter text-slider-filter-color text-center">H</div>
+                                <div class="text-slider-filter text-slider-filter-color text-center">G</div>
+                                <div class="text-slider-filter text-slider-filter-color text-center">F</div>
+                                <div class="text-slider-filter text-slider-filter-color text-center">E</div>
+                                <div class="text-slider-filter text-slider-filter-color text-center">D</div>
+                            </div>
+
+                            <div id="slider-filter-color"></div>
+                        </div>
+                    </div>
+                    <div class="col-4">
+                        <div class="filter-shearing">
+                            <div class="mini-header-filter pb-2">
+                                Чистота
+                            </div>
+                            <div class="block-text-slider-filter">
+                                <div class="text-slider-filter text-slider-filter-purity text-center">Sl2</div>
+                                <div class="text-slider-filter text-slider-filter-purity text-center">Sl1</div>
+                                <div class="text-slider-filter text-slider-filter-purity text-center">VS2</div>
+                                <div class="text-slider-filter text-slider-filter-purity text-center">VS1</div>
+                                <div class="text-slider-filter text-slider-filter-purity text-center">VVS2</div>
+                                <div class="text-slider-filter text-slider-filter-purity text-center">VVS1</div>
+                                <div class="text-slider-filter text-slider-filter-purity text-center">IF</div>
+                                <div class="text-slider-filter text-slider-filter-purity text-center">FL</div>
+                            </div>
+
+                            <div id="slider-filter-purity"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="text-center pb-2">
+                <div class="button-filter">
+                    Развернуть фильтр
+                </div>
+            </div>
+
+            <div class="block-table pt-5 px-5">
+                <ul class="nav nav-tabs" id="myTab" role="tablist">
+                    <li class="nav-item">
+                        <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">Все бриллианты&nbsp;<span>(145,576)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false">Рекомендации</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" id="contact-tab" data-toggle="tab" href="#contact" role="tab" aria-controls="contact" aria-selected="false">Список сравнения</a>
+                    </li>
+                </ul>
+
+                <div class="tab-content" id="myTabContent">
+                    <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+                        <table>
+                            <thead>
+                                <tr>
+                                    <td>Сравнить</td>
+                                    <td>Форма</td>
+                                    <td>Цена</td>
+                                    <td>Карат</td>
+                                    <td>Срез</td>
+                                    <td>Цвет</td>
+                                    <td>Чистота</td>
+                                    <td>Дата доставки</td>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td><img src="img/partners/star-2.png" alt="" /></td>
+                                    <td><img src="img/partners/icon-diamond-1.jpg" alt="" /><span class="table-form">Круглый</span></td>
+                                    <td>4 563 руб.</td>
+                                    <td>0,21</td>
+                                    <td>Очень хороший</td>
+                                    <td>H</td>
+                                    <td>Sl1</td>
+                                    <td>14 декабря</td>
+                                </tr>
+                                <tr>
+                                    <td><img src="img/partners/star-1.png" alt="" /></td>
+                                    <td><img src="img/partners/icon-diamond-2.jpg" alt="" /><span class="table-form">Круглый</span></td>
+                                    <td>1 245 руб.</td>
+                                    <td>0,12</td>
+                                    <td>Идеальный</td>
+                                    <td>G</td>
+                                    <td>Sl1</td>
+                                    <td>12 декабря</td>
+                                </tr>
+                                <tr>
+                                    <td><img src="img/partners/star-2.png" alt="" /></td>
+                                    <td><img src="img/partners/icon-diamond-1.jpg" alt="" /><span class="table-form">Круглый</span></td>
+                                    <td>4 563 руб.</td>
+                                    <td>0,21</td>
+                                    <td>Очень хороший</td>
+                                    <td>H</td>
+                                    <td>Sl1</td>
+                                    <td>14 декабря</td>
+                                </tr>
+                                <tr>
+                                    <td><img src="img/partners/star-2.png" alt="" /></td>
+                                    <td><img src="img/partners/icon-diamond-2.jpg" alt="" /><span class="table-form">Круглый</span></td>
+                                    <td>1 245 руб.</td>
+                                    <td>0,12</td>
+                                    <td>Идеальный</td>
+                                    <td>G</td>
+                                    <td>Sl1</td>
+                                    <td>12 декабря</td>
+                                </tr>
+                                <tr>
+                                    <td><img src="img/partners/star-2.png" alt="" /></td>
+                                    <td><img src="img/partners/icon-diamond-1.jpg" alt="" /><span class="table-form">Круглый</span></td>
+                                    <td>4 563 руб.</td>
+                                    <td>0,21</td>
+                                    <td>Очень хороший</td>
+                                    <td>H</td>
+                                    <td>Sl1</td>
+                                    <td>14 декабря</td>
+                                </tr>
+                                <tr>
+                                    <td><img src="img/partners/star-2.png" alt="" /></td>
+                                    <td><img src="img/partners/icon-diamond-2.jpg" alt="" /><span class="table-form">Круглый</span></td>
+                                    <td>1 245 руб.</td>
+                                    <td>0,12</td>
+                                    <td>Идеальный</td>
+                                    <td>G</td>
+                                    <td>Sl1</td>
+                                    <td>12 декабря</td>
+                                </tr>
+                                <tr>
+                                    <td><img src="img/partners/star-2.png" alt="" /></td>
+                                    <td><img src="img/partners/icon-diamond-1.jpg" alt="" /><span class="table-form">Круглый</span></td>
+                                    <td>4 563 руб.</td>
+                                    <td>0,21</td>
+                                    <td>Очень хороший</td>
+                                    <td>H</td>
+                                    <td>Sl1</td>
+                                    <td>14 декабря</td>
+                                </tr>
+                                <tr>
+                                    <td><img src="img/partners/star-1.png" alt="" /></td>
+                                    <td><img src="img/partners/icon-diamond-2.jpg" alt="" /><span class="table-form">Круглый</span></td>
+                                    <td>1 245 руб.</td>
+                                    <td>0,12</td>
+                                    <td>Идеальный</td>
+                                    <td>G</td>
+                                    <td>Sl1</td>
+                                    <td>12 декабря</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+                        <table>
+                            <thead>
+                                <tr>
+                                    <td>Сравнить</td>
+                                    <td>Форма</td>
+                                    <td>Цена</td>
+                                    <td>Карат</td>
+                                    <td>Срез</td>
+                                    <td>Цвет</td>
+                                    <td>Чистота</td>
+                                    <td>Дата доставки</td>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td><img src="img/partners/star-1.png" alt="" /></td>
+                                    <td><img src="img/partners/icon-diamond-2.jpg" alt="" /><span class="table-form">Круглый</span></td>
+                                    <td>1 245 руб.</td>
+                                    <td>0,12</td>
+                                    <td>Идеальный</td>
+                                    <td>G</td>
+                                    <td>Sl1</td>
+                                    <td>12 декабря</td>
+                                </tr>
+                                <tr>
+                                    <td><img src="img/partners/star-2.png" alt="" /></td>
+                                    <td><img src="img/partners/icon-diamond-1.jpg" alt="" /><span class="table-form">Круглый</span></td>
+                                    <td>4 563 руб.</td>
+                                    <td>0,21</td>
+                                    <td>Очень хороший</td>
+                                    <td>H</td>
+                                    <td>Sl1</td>
+                                    <td>14 декабря</td>
+                                </tr>
+                                <tr>
+                                    <td><img src="img/partners/star-2.png" alt="" /></td>
+                                    <td><img src="img/partners/icon-diamond-2.jpg" alt="" /><span class="table-form">Круглый</span></td>
+                                    <td>1 245 руб.</td>
+                                    <td>0,12</td>
+                                    <td>Идеальный</td>
+                                    <td>G</td>
+                                    <td>Sl1</td>
+                                    <td>12 декабря</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">
+                        <table>
+                            <thead>
+                                <tr>
+                                    <td>Сравнить</td>
+                                    <td>Форма</td>
+                                    <td>Цена</td>
+                                    <td>Карат</td>
+                                    <td>Срез</td>
+                                    <td>Цвет</td>
+                                    <td>Чистота</td>
+                                    <td>Дата доставки</td>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td><img src="img/partners/star-1.png" alt="" /></td>
+                                    <td><img src="img/partners/icon-diamond-2.jpg" alt="" /><span class="table-form">Круглый</span></td>
+                                    <td>1 245 руб.</td>
+                                    <td>0,12</td>
+                                    <td>Идеальный</td>
+                                    <td>G</td>
+                                    <td>Sl1</td>
+                                    <td>12 декабря</td>
+                                </tr>
+                                <tr>
+                                    <td><img src="img/partners/star-2.png" alt="" /></td>
+                                    <td><img src="img/partners/icon-diamond-2.jpg" alt="" /><span class="table-form">Круглый</span></td>
+                                    <td>1 245 руб.</td>
+                                    <td>0,12</td>
+                                    <td>Идеальный</td>
+                                    <td>G</td>
+                                    <td>Sl1</td>
+                                    <td>12 декабря</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+
+            <nav aria-label="Page navigation example" class="my-5 pb-2 px-5">
+                <ul class="pagination justify-content-end">
+                    <li class="page-item">
+                        <a class="page-link arrow-page" href="#" aria-label="Previous">
+                    <span aria-hidden="true" class="catalog-arrow catalog-arrow-left"></span>
+                    <span class="sr-only">Previous</span>
+                  </a>
+                    </li>
+                    <li class="page-item"><a class="page-link" href="#">1</a></li>
+                    <li class="page-item"><a class="page-link active" href="#">2</a></li>
+                    <li class="page-item"><a class="page-link" href="#">3</a></li>
+                    <li class="page-item"><a class="page-link" href="#">4</a></li>
+                    <li class="page-item"><a class="page-link" href="#">5</a></li>
+                    <li class="page-item">
+                        <a class="page-link arrow-page" href="#" aria-label="Next">
+                    <span aria-hidden="true" class="catalog-arrow catalog-arrow-right"></span>
+                    <span class="sr-only">Next</span>
+                  </a>
+                    </li>
+                </ul>
+            </nav>
+
+            <div class="section-info mt-5 pt-4 pb-4">
+                <div class="container-inside">
+                    <div class="text-header-main text-center pt-2 pb-2 mb-5">
+                        <div class="head-text-main">Партнёрам</div>
+                    </div>
+
+                    <p class="text-center pt-4">
+                        Этот розовый алмаз редкостной красоты носит название индийского города Агры - первой столицы Великих Моголов, расположенного на берегу реки Джамны в 200 км от Дели. Агра - один из древнейших городов Индии. Из старинных текстов известно его раннее название - Аграбан. Античный географ Птолемей называл этот город Агара. В 1526 году основатель династии Великих Моголов Бабур избрал Агру своей столицей; в последующие годы резиденция могольских императоров неоднократно меняла свое местоположение, но на протяжении всей двухвековой истории империи Великих Моголов Агра продолжала считаться неофициальной столицей страны. История алмаза «Агра» тоже начинается в 1526 году. После того как армия Моголов разгромила войска раджи Гвалиора, Бабур отправил своего сына -и преемника Хумаюна в Агру, за стенами которой скрывалась семья поверженного индийского правителя Бикермаджи.
+                    </p>
+
+                </div>
+            </div>
+
+
+        </div>
+    </main>
+
+    <footer class="footer bg-dark py-4 mt-5">
+        <div class="container-inside py-3">
+            <div class="row">
+                <div class="logo text-center col-3">
+                    <a href="" class="pb-2">
+                        <img src="img/logo-footer.png" alt=""/>
+                    </a>
+                    <div class="mini-header-text pt-4 text-center">
+                        Бриллианты от профессионалов.<br /> Бриллианты от производителя.
+                    </div>
+                    <div class="search pt-4">
+                        <form class="form-search-main m-auto">
+                            <div class="search_item">
+                                <input type="text" class="search_input" id="search_input-1" placeholder="Поиск">
+                            </div>
+                            <div class="search_item_btn">
+                                <input title="Поиск" class="btn-search" value="" type="submit">
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <div class="offset-1 col-5">
+                    <nav class="menu-footer">
+                        <ul class="mt-4 p-0">
+                            <li><a href="">Главная</a></li>
+                            <li><a href="">Каталог</a></li>
+                            <li><a href="">Акции</a></li>
+                            <li><a href="">Доставка и оплата</a></li>
+                            <li><a href="">О компании</a></li>
+                            <li><a href="">Контакты</a></li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="col-3">
+                    <div class="contact text-right">
+                        <a href="tel:+74954117750" class="phone">8 (495) 411-77-50</a>
+                        <a href="tel:+74954117754" class="phone">8 (495) 411-77-54</a>
+                    </div>
+                    <div class="social text-right mr-4 mt-5">
+                        <a href="#" class="social-icon social-vk"></a>
+                        <a href="#" class="social-icon social-facebook"></a>
+                        <a href="#" class="social-icon social-twitter"></a>
+                        <a href="#" class="social-icon social-mail"></a>
+                    </div>
+
+                    <div class="auth-links text-right mr-3 mt-2">
+                        <a href="" data-toggle="modal" data-target="#exampleModal">Вход для партнеров</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <div class="img-form-header">
+                        <span></span>
+                    </div>
+                    <h4 class="modal-title m-auto" id="exampleModalLabel">Вход для партнеров</h4>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span></span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div class="row h-100">
+                        <div class="col login">
+                            <form class="clearfix">
+                                <div class="text-header-form">
+                                    Авторизация
+                                </div>
+                                <div class="form-group">
+                                    <label for="form-name">
+                                        <img src="img/form/icon-people.png" alt="" />
+                                        Логин
+                                    </label>
+                                    <input type="text" class="form-control rounded-0" id="form-name" />
+                                </div>
+                                <div class="form-group">
+                                    <label for="form-password">
+                                        <img src="img/form/icon-lock.png" alt="" />
+                                        Пароль
+                                    </label>
+                                    <input class="form-control rounded-0" id="form-password" />
+                                </div>
+
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" id="inlineFormCheck">
+                                    <label class="form-check-label" for="inlineFormCheck">
+                                        Запомнить меня
+                                    </label>
+                                </div>
+
+                                <div class="form-group-button">
+                                    <button type="submit" class="btn">Войти</button>
+                                </div>
+                            </form>
+
+                            <div class="forgot">
+                                <span></span>
+                                <a href="">Забыли пароль?</a>
+                            </div>
+                        </div>
+
+                        <div class="col regstr">
+                            <div class="text-header-form">
+                                Регистрация
+                            </div>
+                            <div class="text-form-registration text-center m-auto pt-4">
+                                Всё ещё раздумываете стать ли нашим партнёром? Не сомневайтесь! Регистрируйтесь прямо сейчас!
+                            </div>
+                            <div class="button-registration text-center">
+                                <a href="" class="btn">Зарегистрироваться</a>
+                            </div>
+                            <div class="block-fon-auten">
+                                <img src="img/fon-auten.png" alt="" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
+    <script src="js/slick.min.js"></script>
+    <script src="js/jquery-ui.js"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
